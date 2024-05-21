@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>GrilleImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jeux-sudoku</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">GrilleImpl.java</span></div><h1>GrilleImpl.java</h1><pre class="source lang-java linenums">public class GrilleImpl implements Grille {
+    
+    private ElementDeGrille[][] grille;
+
+<span class="nc" id="L5">    public GrilleImpl(ElementDeGrille[][] grille) {</span>
+<span class="nc" id="L6">        this.grille = grille;</span>
+<span class="nc" id="L7">    }</span>
+
+    @Override
+    public ElementDeGrille getValue(int x, int y) throws HorsBornesException {
+        // Implémentation de la méthode getValue
+<span class="nc bnc" id="L12" title="All 8 branches missed.">        if (x &lt; 0 || x &gt;= grille.length || y &lt; 0 || y &gt;= grille[0].length) {</span>
+<span class="nc" id="L13">            throw new HorsBornesException(&quot;Position hors limites de la grille&quot;);</span>
+        }
+<span class="nc" id="L15">        return grille[x][y];</span>
+    }
+
+    @Override
+    public void setValue(int x, int y, ElementDeGrille element) throws HorsBornesException, ValeurImpossibleException, ElementInterditException, ValeurInitialeModificationException {
+        // Implémentation de la méthode setValue
+<span class="nc bnc" id="L21" title="All 8 branches missed.">        if (x &lt; 0 || x &gt;= grille.length || y &lt; 0 || y &gt;= grille[0].length) {</span>
+<span class="nc" id="L22">            throw new HorsBornesException(&quot;Position hors limites de la grille&quot;);</span>
+        }
+        // Vous pouvez ajouter la logique pour vérifier les autres exceptions ici
+<span class="nc" id="L25">        grille[x][y] = element;</span>
+<span class="nc" id="L26">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>
