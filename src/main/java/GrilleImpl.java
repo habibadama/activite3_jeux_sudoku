@@ -1,5 +1,5 @@
 public class GrilleImpl implements Grille {
-    
+
     private ElementDeGrille[][] grille;
 
     public GrilleImpl(ElementDeGrille[][] grille) {
