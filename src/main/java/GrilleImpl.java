@@ -1,9 +1,14 @@
+import java.util.Arrays;
+
 public class GrilleImpl implements Grille {
 
     private ElementDeGrille[][] grille;
 
-    public GrilleImpl(ElementDeGrille[][] grille) {
-        this.grille = grille;
+       public GrilleImpl(ElementDeGrille[][] grille) {
+        // Copie du tableau passé en argument pour éviter la modification externe
+        this.grille = Arrays.stream(grille)
+                            .map(ElementDeGrille[]::clone)
+                            .toArray(ElementDeGrille[][]::new);
     }
 
     @Override

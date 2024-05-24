@@ -1,5 +1,5 @@
 /**
- * ValeurInitialeModificationException
+ * ValeurInitialeModificationException.
  */
 public class ValeurInitialeModificationException extends RuntimeException {
 
