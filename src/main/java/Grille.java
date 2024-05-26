@@ -28,5 +28,10 @@ public interface Grille {
      */
     void setValue(int x, int y, ElementDeGrille element) throws HorsBornesException, ValeurImpossibleException, ElementInterditException, ValeurInitialeModificationException;
 
-
+   /**
+     * Récupère la dimension de la grille.
+     *
+     * @return La dimension de la grille.
+     */
+    int getDimension();
 }

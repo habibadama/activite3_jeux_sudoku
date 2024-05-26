@@ -4,6 +4,6 @@ public class ValeurInitialeModificationExceptionTest {
 
     @Test
     public void testValeurInitialeModificationException() {
-        
+
     }
 }
