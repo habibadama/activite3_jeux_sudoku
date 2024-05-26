@@ -2,5 +2,19 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.13.0" timestamp="2024-04-28T20:00:59.136">
+    version="6.13.0" timestamp="2024-05-26T16:16:46.601">
+<file name="C:\Users\Hp\Documents\eMIAGE\C306 - Ingénierie du logiciel (ISI_05)\Semestre 1 Activité 2\activite3_jeux_sudoku\src\main\java\GrilleImpl.java">
+<violation beginline="66" endline="66" begincolumn="40" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" class="GrilleImpl" method="isInitialValue" variable="x" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'x'.
+</violation>
+<violation beginline="66" endline="66" begincolumn="47" endcolumn="47" rule="UnusedFormalParameter" ruleset="Best Practices" class="GrilleImpl" method="isInitialValue" variable="y" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'y'.
+</violation>
+<violation beginline="71" endline="71" begincolumn="53" endcolumn="59" rule="UnusedFormalParameter" ruleset="Best Practices" class="GrilleImpl" method="isPossibleValue" variable="element" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'element'.
+</violation>
+<violation beginline="76" endline="76" begincolumn="56" endcolumn="62" rule="UnusedFormalParameter" ruleset="Best Practices" class="GrilleImpl" method="isForbiddenElement" variable="element" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'element'.
+</violation>
+</file>
 </pmd>

@@ -1,8 +1,8 @@
-Grille.class
 HorsBornesException.class
-ElementInterditException.class
 GrilleImpl.class
+ElementDeGrille.class
+Grille.class
+ElementInterditException.class
 ValeurImpossibleException.class
 ValeurInitialeModificationException.class
 ElementDeGrilleImplAsChar.class
-ElementDeGrille.class

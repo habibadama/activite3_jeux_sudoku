@@ -1,7 +1,11 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+jeux-sudoku,default,GrilleFactoryImpl,0,8,0,0,0,2,0,2,0,2
 jeux-sudoku,default,ElementInterditException,4,0,0,0,2,0,1,0,1,0
-jeux-sudoku,default,ElementDeGrilleImplAsChar,9,0,0,0,4,0,2,0,2,0
-jeux-sudoku,default,ValeurInitialeModificationException,4,0,0,0,2,0,1,0,1,0
-jeux-sudoku,default,GrilleImpl,63,0,16,0,10,0,11,0,3,0
+jeux-sudoku,default,SolveurException,9,0,0,0,4,0,2,0,2,0
+jeux-sudoku,default,Resolveur,155,47,28,8,24,10,19,7,4,4
 jeux-sudoku,default,HorsBornesException,4,0,0,0,2,0,1,0,1,0
+jeux-sudoku,default,ElementDeGrilleImplAsChar,0,9,0,0,0,4,0,2,0,2
+jeux-sudoku,default,ValeurInitialeModificationException,4,0,0,0,2,0,1,0,1,0
+jeux-sudoku,default,GrilleImpl,73,49,19,5,15,9,16,5,4,5
+jeux-sudoku,default,GrilleParser,41,125,8,16,6,24,8,5,0,1
 jeux-sudoku,default,ValeurImpossibleException,4,0,0,0,2,0,1,0,1,0
